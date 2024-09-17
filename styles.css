@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #F9F5EB;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #FF6F61;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+    background-color: #F9F5EB;
+    text-align: center; /* Center content within the main section */
+}
+
+figure {
+    margin: 0 auto; /* Center the figure block */
+    display: inline-block; /* Allow centering of the figure block */
+}
+
+img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+section {
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    color: #FF6F61;
+}
